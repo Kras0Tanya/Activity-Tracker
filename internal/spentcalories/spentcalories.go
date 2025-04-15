@@ -80,7 +80,7 @@ func TrainingInfo(data string, weight, height float64) (string, error) {
 	}
 
 	return fmt.Sprintf(
-		"Тип тренировки: %s\nДлительность: %.2f ч.\nДистанция: %.2f км.\nСкорость: %.2f км/ч\nСожгли калорий: %.2f",
+		"Тип тренировки: %s\nДлительность: %.2f ч.\nДистанция: %.2f км.\nСкорость: %.2f км/ч\nСожгли калорий: %.2f\n",
 		activity, duration.Hours(), dist, speed, calories,
 	), nil
 }
